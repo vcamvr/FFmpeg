@@ -327,6 +327,7 @@ static void register_all(void)
     REGISTER_FILTER(ZMQ,            zmq,            vf);
     REGISTER_FILTER(ZOOMPAN,        zoompan,        vf);
     REGISTER_FILTER(ZSCALE,         zscale,         vf);
+    REGISTER_FILTER(TRANSFORM360,   transform360,   vf);
 
     REGISTER_FILTER(ALLRGB,         allrgb,         vsrc);
     REGISTER_FILTER(ALLYUV,         allyuv,         vsrc);
